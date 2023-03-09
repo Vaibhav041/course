@@ -1,0 +1,308 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.box {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  height: 680px;
+  width: 300px;
+  margin: 10px;
+  background: #F8F8F8;
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+}
+.cardTop {
+  height: 130px;
+  background: #D5F1FE;
+border-radius: 2px;
+}
+
+.card:hover .cardTop{
+  background: #003F5C;
+  color: #FFFFFF;
+}
+.card:hover {
+  margin-top: -10px;
+}
+.card:hover .name{
+  color: #FFFFFF;
+
+}
+.topImg {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #006292;
+width: 227px;
+height: 30px;
+margin-left: 10px;
+}
+
+.classes {
+  background-image: url('./Rectangle\ 5630label.png');
+  margin-top: 10px;
+  width:150px;
+   height:25px;
+   background-position: center; /* Center the image */
+   background-repeat: no-repeat; /* Do not repeat the image */
+   background-size: cover; /* Resize the background image to cover the entire container */
+
+
+   font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+/* line-height: 17px; */
+/* identical to box height */
+padding-left: 15px;
+
+
+color: #FFFFFF;
+}
+.off {
+  position: relative;
+  text-align: center;
+}
+.overText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 19px;
+
+}
+.pitch {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+padding: 10px;
+/* or 143% */
+
+
+color: #333333;
+}
+.heading {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+margin-top: 10px;
+padding:0 0 0 10px;
+/* identical to box height, or 125% */
+
+
+color: #000000;
+}
+li {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* or 143% */
+
+text-transform: uppercase;
+
+color: #666666;
+margin-bottom: 4px;
+
+}
+.details {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-decoration-line: underline;
+text-transform: capitalize;
+
+color: #333333;
+margin-left: 10px;
+}
+.line {
+  border: 1px solid #E0E0E0;
+  width: 250px;
+  margin-left: 20px;
+}
+.prices {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.price {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #333333;
+}
+.original {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #999999;
+text-decoration: line-through;
+}
+.classprice {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #333333;
+}
+.per {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.schedule {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #F47759;
+padding:0 10px 0 17px;
+}
+.acti {
+  height: 40px;
+  background: #D5F1FE;
+border-radius: 2px;
+padding: 3px;
+display: flex;
+}
+.sp {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #333333;
+}
+.butt {
+  background: linear-gradient(90deg, #F3705B 0%, #FCB444 100%);
+border-radius: 48px;
+border: none;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+margin-top: 15px;
+
+width: 160px;
+height: 43px;
+}
+.bContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.button {
+  float: left;
+  margin: 0 5px 0 0;
+  width: 147px;
+  height: 100px;
+  position: relative;
+  background: #D5F1FE;
+}
+
+.button label,
+.button input {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.button input[type="radio"] {
+  opacity: 0.011;
+
+  z-index: 100;
+}
+
+.button input[type="radio"]:checked + label {
+ background: #003F5C;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.button label {
+  cursor: pointer;
+  z-index: 90;
+  line-height: 1.8em;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #333333;
+
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+}
+.buttonSection {
+  display: flex;
+  justify-content: center;
+}
+.review {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+/* identical to box height */
+
+
+color: #333333;
+}
